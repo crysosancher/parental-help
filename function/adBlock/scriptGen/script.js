@@ -6,13 +6,14 @@ async function main() {
   //console.log(textByLine.length);
   for (let i = 0; i < textByLine.length; i++) {
     let web = textByLine[i];
+    if(web==""){ continue; }
     let redurl = randomUrl();
     await arr.push({
       id: i + 1,
       priority: 1,
       action: { type: "redirect", redirect: { url: redurl } },
       condition: {
-        urlFilter: `://*.${web}/*`,
+        urlFilter: `${web}`,
         resourceTypes: ["main_frame"],
       },
     });
