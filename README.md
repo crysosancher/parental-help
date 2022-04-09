@@ -36,7 +36,7 @@
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
 The main problem we are trying to solve with this extention is to block adult content and let the youth focus on real goals of life.
-Today India stands number 1 on watching adult content/movies this is a result of adapting western culture. This is the biggest threat to out country as a contry is built by its youth and if its youth is misguided and not on right track this can result to a bad future. We aim to resolve thier habbit and instead redirect them to a better website and show them what other productive things they can do.
+Today India stands number 1 on watching adult content/movies this is a result of adapting western culture. This is the biggest threat to our country as a contry is built by its youth and if its youth is misguided and not on right track this can result to a bad future. We aim to resolve thier habbit and instead redirect them to a better website and show them what other productive things they can do.
 To be straight on point we can also see that masturbation can result to fatigue,weakness,vision changes and many more. This is a big threat which stands ahead of todays youth of India.
 
 ## 💡 Idea / Solution <a name = "idea"></a>
