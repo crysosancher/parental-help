@@ -20,7 +20,10 @@ async function main() {
   }
 }
 const randomUrl = ()=>{
-  let u = ['https://fightthenewdrug.org/wp-content/uploads/2021/05/FTND_YouAreNotABadPerson_v2-2021.jpg','http://powerline.io/','https://fightthenewdrug.org/things-to-do-instead-of-watch-porn/ ','https://wealthygorilla.com/19-reasons-stop-watching-porn/','https://fightthenewdrug.org/40-reasons-you-should-quit-watching-porn-today/']
+  let u = ['https://res.cloudinary.com/dy9tzgg9i/image/upload/v1649535845/Bhai-Kya-Kar-Raha-Hai-Tu-Meme-Template-on-Ashneer-Grover_glgoqo.jpg','https://res.cloudinary.com/dy9tzgg9i/image/upload/v1649536322/ias_zey7a3.jpg',
+  'https://res.cloudinary.com/dy9tzgg9i/image/upload/v1649536497/kaha_tz2les.jpg','https://res.cloudinary.com/dy9tzgg9i/image/upload/v1649536638/desh_yntxhl.jpg',
+  'https://res.cloudinary.com/ddgbz6b9y/image/upload/v1649538007/WhatsApp_Image_2022-04-10_at_2.16.03_AM_ncjwno.png',
+  'https://res.cloudinary.com/ddgbz6b9y/image/upload/v1649538007/WhatsApp_Image_2022-04-10_at_2.16.04_AM_1_yd46jj.png']
   return u[generateRandom()];
 }
 function generateRandom(min = 0, max = 4) {
