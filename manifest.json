@@ -1,0 +1,46 @@
+{
+	"name": "Parental Help",
+	"description": "Nothing Bad could happen",
+	"version": "0.0.1",
+	"manifest_version": 3,
+	"host_permissions": [
+		
+		"<all_urls>"
+	],
+	"permissions": [
+		"webRequest",
+		"tabCapture",
+		"tabs",
+		"storage",
+		"desktopCapture",
+		"downloads",
+		"declarativeNetRequest",
+		"declarativeNetRequestWithHostAccess",
+		"declarativeNetRequestFeedback"
+
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"js": [
+				"content.js"
+			]
+		}
+	],
+	"background": {
+		"service_worker": 
+			"background.js"
+	},
+	"declarative_net_request": {
+		"rule_resources": [
+			{
+				"id": "ruleset_1",
+				"enabled": true,
+				"path": "/function/adBlock/rule_1.json"
+			}
+		]
+	}
+    }
