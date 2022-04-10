@@ -63,7 +63,7 @@ Limitation may incklude that if a website is not in our block list the website m
 
 In future we plan to build a whole website and attach to the extention so we can generate reports for particular users and make them show how much they controlled thier urge and how they came out of the addiction.This would provide a better user experience.
 
-## 🚀 What we Provide <a name = "What_we_Provide"></a>
+## 🍩 What we Provide <a name = "What_we_Provide"></a>
  - We take care of Vpn/Proxies or any third party tools.
  - We don't only block the problems but also provide a perfect solution for it.
  - We have taken care of more than 16k+ websites.And will keep on updating it.
