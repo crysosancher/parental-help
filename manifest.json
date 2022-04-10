@@ -19,6 +19,10 @@
 		"declarativeNetRequestFeedback"
 
 	],
+	"icons": {
+		"128": "/assests/icons8.png"
+	},
+
 	"content_scripts": [
 		{
 			"matches": [
