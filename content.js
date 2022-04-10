@@ -8,6 +8,7 @@ function randomUrl() {
     "http://powerline.io/",
     "https://www.cartoonnetworkhq.com/show/ben-10/games",
     "https://www.youtube.com/watch?v=p9TIP6Cc7I8",
+    "https://www.bulletbonanza.io/",
     "https://www.youtube.com/watch?v=h3k1fcwXmXo",
     "https://www.youtube.com/watch?v=dbYWKVAeu6Y",
     "https://smashkarts.io/",
@@ -19,7 +20,7 @@ function randomUrl() {
   console.log(u.length);
   return u[generateRandom(0,u.length-1)];
 }
-function generateRandom(min = 0, max = 9) {
+function generateRandom(min = 0, max = 10) {
   // find diff
   let difference = max - min;
   // generate random number
