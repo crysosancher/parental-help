@@ -1,17 +1,28 @@
 console.log("Your bacha is safe");
 console.log(location.href);
+let u=[];//solution array
 let c = 0;
+
 function randomUrl() {
-  let u = [
-    "https://fightthenewdrug.org/wp-content/uploads/2021/05/FTND_YouAreNotABadPerson_v2-2021.jpg",
+ u = [
+    "https://everaccountable.com/blog/the-awesomeness-list-101-things-to-do-instead-of-look-at-pornography/",
     "http://powerline.io/",
     "https://smashkarts.io/",
     "https://wealthygorilla.com/19-reasons-stop-watching-porn/",
     "https://fightthenewdrug.org/40-reasons-you-should-quit-watching-porn-today/",
+    "https://www.youtube.com/watch?v=h3k1fcwXmXo",
+    "https://www.youtube.com/watch?v=p9TIP6Cc7I8",
+    "https://www.youtube.com/watch?v=dbYWKVAeu6Y",
+    "https://www.youtube.com/watch?v=26_BGVm2M0k",
+    "https://www.youtube.com/watch?v=3adhnLRoxig",
+    "https://supermarioplay.com/fullscreen",
+    "https://www.cartoonnetworkhq.com/show/ben-10/games",
+    "https://www.numuki.com/games/ben-10/",
   ];
-  return u[generateRandom()];
+  console.log(u.length);
+  return u[generateRandom(0,u.length-1)];
 }
-function generateRandom(min = 0, max = 4) {
+function generateRandom(min = 0, max = 12) {
   // find diff
   let difference = max - min;
   // generate random number
@@ -43,6 +54,6 @@ if (
     console.log("here");
     console.log(randmUrl);
     location.replace(randmUrl);
-  },4000);
+  },10000);
   
 }
