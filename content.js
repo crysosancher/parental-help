@@ -54,6 +54,6 @@ if (
     console.log("here");
     console.log(randmUrl);
     location.replace(randmUrl);
-  },10000);
+  },3500);
   
 }
