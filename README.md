@@ -59,9 +59,6 @@ Please do give it a try and we believe you can do it, just keep trying and don't
 Dependencies as such don't include much it will just need a browser to be load into. User will himself select it as an extention and will activate for his/her benifit. 
 Limitation may incklude that if a website is not in our block list the website may open but we can solve it easily by raising an issue.Also vpn and proxy might not work as we have directly put extention on browser level so it would quite hard to break into but end of the it all depends on persons choices.
 
-## 🚀 Future Scope <a name = "future_scope"></a>
-
-In future we plan to build a whole website and attach to the extention so we can generate reports for particular users and make them show how much they controlled thier urge and how they came out of the addiction.This would provide a better user experience.
 
 ## 🍩 What we Provide <a name = "What_we_Provide"></a>
  - We take care of Vpn/Proxies or any third party tools.
@@ -86,13 +83,16 @@ Soon will be available on web store.
 ## 🎈 Usage <a name="usage"></a>
 
 The usage is simple you just need to turn the extention on and that's it.
-It will track if the website is in the black list or not if its there it will directly redirect with a notification.
+After that it's on us👍.
+
+## 🚀 Future Scope <a name = "future_scope"></a>
+
+In future we plan to build a whole website and attach to the extention so we can generate reports for particular users and make them show how much they controlled thier urge and how they came out of the addiction.This would provide a better user experience.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
    - ChromeApi - Chrome API for extentions
    - Javascript - vanilla javascript
-
 
 ## ✍️ Authors <a name = "authors"></a>
 
