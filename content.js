@@ -5,24 +5,21 @@ let c = 0;
 
 function randomUrl() {
  u = [
-    "https://everaccountable.com/blog/the-awesomeness-list-101-things-to-do-instead-of-look-at-pornography/",
     "http://powerline.io/",
-    "https://smashkarts.io/",
-    "https://wealthygorilla.com/19-reasons-stop-watching-porn/",
-    "https://fightthenewdrug.org/40-reasons-you-should-quit-watching-porn-today/",
-    "https://www.youtube.com/watch?v=h3k1fcwXmXo",
-    "https://www.youtube.com/watch?v=p9TIP6Cc7I8",
-    "https://www.youtube.com/watch?v=dbYWKVAeu6Y",
-    "https://www.youtube.com/watch?v=26_BGVm2M0k",
-    "https://www.youtube.com/watch?v=3adhnLRoxig",
-    "https://supermarioplay.com/fullscreen",
     "https://www.cartoonnetworkhq.com/show/ben-10/games",
+    "https://www.youtube.com/watch?v=p9TIP6Cc7I8",
+    "https://www.youtube.com/watch?v=h3k1fcwXmXo",
+    "https://www.youtube.com/watch?v=dbYWKVAeu6Y",
+    "https://smashkarts.io/",
+    "https://www.youtube.com/watch?v=26_BGVm2M0k",
+    "https://supermarioplay.com/fullscreen",
+    "https://www.youtube.com/watch?v=3adhnLRoxig",
     "https://www.numuki.com/games/ben-10/",
   ];
   console.log(u.length);
   return u[generateRandom(0,u.length-1)];
 }
-function generateRandom(min = 0, max = 12) {
+function generateRandom(min = 0, max = 9) {
   // find diff
   let difference = max - min;
   // generate random number
