@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
+ <img src="https://res.cloudinary.com/dy9tzgg9i/image/upload/v1649574460/Screenshot_20220410_123457_ugvu97.png" alt="Project logo"></a>
 </p>
 <h3 align="center">Parental-Help</h3>
 
